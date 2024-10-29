@@ -1,0 +1,15 @@
+@import './variables.scss';
+@import './normalize.scss';
+/********** Action button in table **********/
+.actions-wrapper {
+  .--edit-button,
+  .--edit-button:hover {
+    color: $colorPositive;
+    border-color: $colorPositive;
+  }
+  .--delete-button,
+  .--delete-button:hover {
+    color: $colorNegative;
+    border-color: $colorNegative;
+  }
+}
